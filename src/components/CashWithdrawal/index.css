@@ -1,0 +1,117 @@
+/* Write your CSS here */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  width: 440px;
+  margin-left: 15px;
+}
+
+.nameContainer {
+  display: flex;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 24px;
+}
+
+.name {
+  color: #c7d2fe;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.balance-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.balance-heading {
+  color: #585076;
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.balance {
+  color: #d4d2db;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.Rupees-section {
+  display: flex;
+  justify-content: flex-end;
+  color: #585076;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Rupees {
+  font-size: 16px;
+  padding-right: 14px;
+}
+
+.withdraw-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #585076;
+  font-weight: bold;
+  margin: 0;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Sum-In-Rupees {
+  color: #585076;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.rupees-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}

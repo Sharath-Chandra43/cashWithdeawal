@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  border: 2px solid #c4c4c4;
+  background-color: transparent;
+
+  border-radius: 5px;
+  color: #585076;
+  padding: 2px;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 135px;
+  font-family: 'Roboto';
+}
+
+.list-items {
+  margin: 10px;
+
+  list-style-type: none;
+  width: 135px;
+}
+
+@media screen and (max-width: 450px) {
+  .list-items {
+    width: 105px;
+  }
+
+  .button {
+    width: 105px;
+  }
+}
